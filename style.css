@@ -1,0 +1,341 @@
+html {
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed; 
+ -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;   
+}
+
+*{
+    box-sizing:border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.searchbar:after {content:""; clear:both; display:table}
+.searchbar form {
+    position: static;
+width: 360px;
+height: 60px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 4;
+padding: 4px;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+margin: 0px 4px;
+  width: auto;
+  float: right;
+  margin-right: 30px;
+}
+.searchbar input {
+  width: 250px;
+  height: 42px;
+  padding-left: 15px;
+  border-radius: 42px;
+  border: 2px solid;
+ background: rgba(63, 12, 10, 0.808);
+  outline: none;
+  position: relative;
+  transition: .3s linear;
+}
+.searchbar input:focus {
+  width: 300px;
+}
+.searchbar button {
+  width: 42px;
+  height: 42px;
+  background: none;
+  border: none;
+  position: absolute;
+  top: -2px;
+  right: 0;
+   cursor: pointer;
+}
+
+
+.container {
+    width:70%;
+    display:flex;
+    justify-content:flex-start ;
+
+}
+
+ul {
+    list-style:none;
+    width: 600px;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between ;
+
+
+}
+
+li {
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 32px;
+font-weight: 800;
+line-height: 39px;
+letter-spacing: 0%;
+text-align: right;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.logo{
+position: absolute;
+width: 567px;
+height: 224px;
+left: 87px;
+top: 135px;
+color: rgb(255, 255, 255);
+font-family: Mystery Quest;
+font-size: 96px;
+font-weight: 400;
+line-height: 131px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/website/altbotique.jpg);
+    background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed; 
+-moz-background-size: cover;
+-webkit-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+
+
+}
+
+.text1{
+    position: absolute;
+width: 289px;
+height: 133px;
+left: 640px;
+right: 411px;
+top: 470px;
+bottom: 343px;
+color: rgb(243, 243, 243);
+font-family: Irish Grover;
+font-size: 48px;
+font-weight: 400;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.text2 {
+position: absolute ;
+width: 156px;
+height: 48px;
+left: 140px;
+right: 411px;
+top: 770px;
+bottom: 343px;
+color: rgb(243, 243, 243);
+font-family: Irish Grover;
+font-size: 48px;
+font-weight: 400;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.text3{
+    position: absolute ;
+    width: 156px;
+    height: 48px;
+    left: 340px;
+    right: 411px;
+    top: 770px;
+    bottom: 343px;
+    color: rgb(243, 243, 243);
+    font-family: Irish Grover;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+.block_dress{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(74, 0, 192, 0.781) ;   
+    place-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.block_dress {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+p {
+    font-size: 36pt;
+    color: darkred;
+}
+.dress {
+    width: 270px;
+    height: 320px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: end;
+}
+
+.DRESS1 {
+    background-image: url(Lolita.jpg);
+}
+
+.DRESS2 {
+    background-image: url(Lilith.jpg);
+}
+
+.DRESS3 {
+    background-image: url(Dimitrescu.jpg);
+}
+
+.DRESS4 {
+    background-image: url(Church\ outfit.jpg);
+}
+
+.DRESS5 {
+    background-image: url(Winter\ death.jpg);
+}
+
+.DRESS6 {
+    background-image: url(Alice.jpg);
+}
+
+.DRESS7 {
+    background-image: url(Draculaura.jpg);
+}
+
+.DRESS8 {
+    background-image: url(Industrial.jpg);
+}
+
+.block_shoes{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(149, 0, 179) ;   
+    margin: 0;
+    padding: 0;
+}
+
+.block_shoes {
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: repeat(2);
+    grid-gap: 100px;
+    padding-left: 30px;
+    padding-top: 15px;
+    
+}
+
+
+.shoes{
+    background-size: cover;
+    width: 340px;
+    height: 320px;
+    transition: linear;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+   display: flex;
+   justify-content: center;
+   align-content: center;
+    align-items: end;
+   
+}
+
+
+.shoes:hover {
+    opacity: 60%;
+ }
+
+.SHOES1 {
+    background-image: url(Flirting\ With\ Danger\ Velvet\ Mary\ Janes.jpg);
+    }
+
+    .text4 {
+        position: absolute;
+        width: 289px;
+        height: 133px;
+        left: 390px;
+        right: 411px;
+        top: 1900px;
+        bottom: 543px;
+        font-size: 23pt;
+        color:aliceblue;
+        font-family: Irish Grover; 
+    }
+
+    .SHOES2 {
+        background-image: url(Worship.jpg);
+        }
+
+    .text5 {
+        position: absolute;
+        width: 289px;
+        height: 133px;
+        left: 390px;
+        right: 411px;
+        top: 2400px;
+        bottom: 543px;
+        font-size: 23pt;
+        color:aliceblue;
+        font-family: Irish Grover; 
+        }
+
+    .SHOES3 {
+        background-image: url(Sugar\ Thrillz.jpg);
+         }
+
+        .text6 {
+            position: absolute;
+            width: 289px;
+            height: 133px;
+            left: 750px;
+            right: 511px;
+            top: 2200px;
+            bottom: 543px;
+            font-size: 23pt;
+            color:aliceblue;
+            font-family: Irish Grover; 
+            }
+    
+
+         
+
+        
